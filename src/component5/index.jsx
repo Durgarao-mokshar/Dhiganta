@@ -1,5 +1,5 @@
 export default function Component5(){
-    return <div className="bg-green-500 ">
+    return <div className="bg-green-500 py-10">
         <div className="max-w-7xl mx-auto px-8 py-16">
         <div className="mb-2">
             <h1 className="uppercase font-bold text-4xl text-center text-white">

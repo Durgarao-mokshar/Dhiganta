@@ -1,5 +1,5 @@
 export default function Component3(){
-    return <div className="max-w-7xl px-4 gap-14 mx-auto lg:py-44 md:py-32 py-10 ">
+    return <div className="max-w-7xl px-4 gap-14 mx-auto lg:py-36 md:py-28 py-10 ">
         <div>
             <h1 className="text-black font-bold lg:text-5xl md:text-3xl text-2xl text-start mb-7">What we do</h1>
         </div>

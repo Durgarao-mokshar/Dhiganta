@@ -1,6 +1,6 @@
 export default function Component4(){
     return (
-       <div className="max-w-7xl grid grid-rows-2 gap-20 mx-auto mb-6">
+       <div className="max-w-7xl grid grid-rows-2 gap-20 mx-auto mb-6 pb-20">
   <div>
     <h1 className="text-black font-bold lg:text-5xl md:text-3xl text-2xl text-center mb-7">Clients</h1>
   </div>
