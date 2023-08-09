@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.backgroundImageOne{
+    background-image: url('https://themezinho.net/parada/images/news1.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.heroBgImage{
+    background-image: url('https://themezinho.net/parada/images/hero1.jpg');
+    background-size: cover;
+    background-position:center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
