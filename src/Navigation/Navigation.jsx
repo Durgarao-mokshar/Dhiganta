@@ -1,20 +1,24 @@
-import  { useState } from "react";
+// import { useState } from "react";
 
 const Navigation = () => {
-    const [click, setClick] = useState(false);
-  
-    function handleClick() {
-      setClick(!click);
-    }
-  
-    return (
-      <>
+  // const [click, setClick] = useState(false);
+
+  // function handleClick() {
+  //   setClick(!click);
+  // }
+
+  return (
+    <>
       <div>
-        <div
-          id="navigation"
-          className={` ${
-            click ? "translate-x-0" : "-translate-x-full"
-          } bg-green-100 fixed top-0 left-0 h-screen w-full transform transition-transform duration-300 flex items-center justify-center `}
+      <div className="flex items-center justify-center p-3">
+            <img
+              src="./DhigantaLogo.png"
+              alt="digantaa logo"
+              className="h-23 w-36"
+            />
+          </div>
+        {/* <div
+          className={`${click ? "translate-x-0" : "-translate-x-full"}  fixed top-0 left-0 h-screen w-full transform transition-transform duration-300 flex items-center justify-center `}
         >
           <ul className="flex flex-col items-center justify-center gap-14 text-xl">
             <li>
@@ -34,12 +38,16 @@ const Navigation = () => {
             </li>
           </ul>
         </div>
-  
-        <nav className="bg-green-100 w-screen fixed top-0 left-0 right-0 h-24 flex justify-between items-center p-4">
+
+        <nav className="bg-white w-screen fixed top-0 left-0 right-0 h-24 flex justify-between items-center p-4 z-100 ">
           <div>
-            <img src="./DhigantaLogo.png" alt="digantaa logo" className="h-20 w-40" />
+            <img
+              src="./DhigantaLogo.png"
+              alt="digantaa logo"
+              className="h-20 w-40"
+            />
           </div>
-  
+
           <div onClick={handleClick} className="cursor-pointer">
             {click ? (
               <svg
@@ -50,7 +58,11 @@ const Navigation = () => {
                 stroke="currentColor"
                 className="w-6 h-6"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M6 18L18 6M6 6l12 12"
+                />
               </svg>
             ) : (
               <svg
@@ -69,12 +81,10 @@ const Navigation = () => {
               </svg>
             )}
           </div>
-        </nav>
+        </nav> */}
       </div>
-      
-      </>
-    );
-  };
-  
-  export default Navigation;
-  
+    </>
+  );
+};
+
+export default Navigation;
