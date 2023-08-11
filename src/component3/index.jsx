@@ -5,35 +5,35 @@ export default function Component3(){
         </div>
         <div className="grid lg:grid-cols-3 grid-cols-1 gap-10">
             <div>
-                <h2 className="text-black font-bold mb-10 text-2xl absolute">DESIGN</h2>
+                <h2 className="text-black font-bold mb-10 text-2xl absolute">Storytelling</h2>
                 <span className="relative text-gray-500 text-2xl font-bold  -z-10 top-4 p-4 -left-4 opacity-40">01</span>
                 <ul className="list-disc p-4 mt-4">
-                    <li>Digital strategy</li>
-                    <li>User experience design</li>
-                    <li>User Interface design</li>
-                    <li>iphone and android apps</li>
+                    <li> captivating narratives </li>
+                    <li>concept to execution</li>
+                    <li>bringing your stories to life </li>
+                    <li>passionate about storytelling</li>
                 </ul>
             </div>
 
             <div>
-                <h2 className="text-black font-bold mb-10 text-2xl absolute">DESIGN</h2>
+                <h2 className="text-black font-bold mb-10 text-2xl absolute">Visualizing </h2>
                 <span className="relative text-gray-500 text-2xl font-bold  -z-10 top-4 p-4 -left-4 opacity-40">02</span>
                 <ul className="list-disc p-4 mt-4">
-                    <li>Digital strategy</li>
-                    <li>User experience design</li>
-                    <li>User Interface design</li>
-                    <li>iphone and android apps</li>
+                    <li>turning your ideas into powerful visuals</li>
+                    <li>fusion of artistic innovation & technical excellence</li>
+                    <li>evoke emotions, and leave a lasting imprint.</li>
+                    <li>share your stories with the world</li>
                 </ul>
             </div>
 
             <div>
-                <h2 className="text-black font-bold mb-10 text-2xl absolute">DESIGN</h2>
+                <h2 className="text-black font-bold mb-10 text-2xl absolute">Reveal</h2>
                 <span className="relative text-gray-500 text-2xl font-bold  -z-10 top-4 p-4 -left-4 opacity-40">03</span>
                 <ul className="list-disc p-4 mt-4">
-                    <li>Digital strategy</li>
-                    <li>User experience design</li>
-                    <li>User Interface design</li>
-                    <li>iphone and android apps</li>
+                    <li>crafting documentaries</li>
+                    <li>thoughtful storytelling</li>
+                    <li>meticulous research </li>
+                    <li>inspire change and foster understanding</li>
                 </ul>
             </div>
         </div>
