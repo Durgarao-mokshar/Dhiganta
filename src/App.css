@@ -26,7 +26,7 @@
 }
 
 
-section{
+/* section{
      
     position: relative;
     background:url(../public/Hero.jpg);
@@ -47,7 +47,6 @@ section::before{
     background: url(splash.jpg);
     background-size:cover;
     /* background-position: center; */
-    mix-blend-mode: screen;
+    /* mix-blend-mode: screen; */
     
-    
-}
+/* } */
