@@ -10,7 +10,7 @@ export default function Index() {
     </h2>
   </div>
 
-  <div className="lg:grid lg:grid-cols-3  gap-20 flex flex-col items-center justify-center max-w-7xl mx-auto">
+  <div className="lg:grid lg:grid-cols-3  gap-20 flex flex-col items-center justify-center max-w-7xl mx-auto px-6">
     <div className="flex flex-col items-center justify-center gap-4">
       <img src="icon1.png" alt="UI-UX Design Icon" className="w-24 h-24"/>
       <div className="flex flex-col items-center justify-center w-full gap-2">
