@@ -5,7 +5,7 @@ export default function FooterComponent(){
 			<div className=" z-0 bottom-0 w-full">
 				<div className="p-4 pt-16 max-w-7xl mx-auto w-full h-full flex justify-between items-start flex-wrap text-gray-200 ">
 					<div className="w-full max-w-md py-4">
-							<img src="./DhigantaLogo.png" className="w-46 h-28" />
+							<img src="./logoWhite.png" className="w-46 h-28" />
                         
 						<div className="py-6 text-lg">
 							<p>+91 8317615264 </p>

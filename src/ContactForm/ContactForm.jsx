@@ -162,15 +162,15 @@ function ContactForm() {
                         }
                       }}
                       key={ele._id}
-                      className={`px-6 py-3 cursor-pointer border-2 rounded-full flex justify-center items-center text-blue-900 font-semibold my-2 mr-4 hover:scale-110 hover:border-[#fde047] hover:bg-orange-400 ${
+                      className={`px-6 py-3 cursor-pointer border-2 rounded-full flex justify-center items-center text-blue-900 font-semibold my-2 mr-4 hover:scale-105 hover:bg-gray-200 ${
                         service.find((service) => service._id === ele._id)
-                          ? "bg-[#F2751A] border-[#F2751A]"
-                          : "border-[#FDE047]"
+                          ? "bg-gray-200 border-gray-200"
+                          : ""
                       }`}
                     >
                       {service.find((service) => service._id === ele._id) && (
                         <img
-                          className="w-3.5 h-3.5 opacity-100 mr-1"
+                          className="w-3.5 h-3.5 opacity-100 mr-1 "
                           src="https://d3e54v103j8qbb.cloudfront.net/static/custom-checkbox-checkmark.589d534424.svg"
                         />
                       )}
