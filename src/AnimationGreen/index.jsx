@@ -1,4 +1,4 @@
-export default function Component2(){
+export default function Index(){
     return  <div className="grid lg:grid-cols-3 md:grid-cols-3 mt-8 overflow-hidden">
    <div className="flex-1  relative hover:scale-110 hover:-translate-x-2 hover:translate-y-2 h-full w-full transition-transform duration-300   ">
   <img

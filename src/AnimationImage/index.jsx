@@ -1,4 +1,4 @@
-export default function Component7() {
+export default function AnimationImage() {
   return (
     <div className="grid lg:grid-cols-3 grid-cols-1 bg-zinc-900 mb-20">
       <div className=" w-full h-96 opacity-30 hover:opacity-100 hover:transition-all duration-500 transition-opacity backgroundImageOne ">
