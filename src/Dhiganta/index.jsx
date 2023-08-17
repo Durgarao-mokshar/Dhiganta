@@ -1,4 +1,4 @@
-export default function Index() {
+export default function Dhiganta() {
     return<div className="flex flex-col items-center mt-10 gap-28 pb-24">
   
       <h2></h2>

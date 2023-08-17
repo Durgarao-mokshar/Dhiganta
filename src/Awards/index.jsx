@@ -1,4 +1,4 @@
-export default function Component6() {
+export default function Awards() {
   return (
     <div className="grid lg:grid-cols-4 lg:gap-14 md:grid-cols-2 max-w-7xl py-36 px-16 mx-auto gap-20">
       <div className="flex flex-col gap-4 justify-center items-center">

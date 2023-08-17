@@ -1,12 +1,11 @@
 import "./App.css";
-
-import Index from "./component1";
-import Component2 from "./component2";
-import Component3 from "./component3";
-import Component4 from "./component4";
-import Component5 from "./component5";
-import Component6 from "./Component6";
-import Component7 from "./component7";
+import Dhiganta from "./Dhiganta";
+import AnimationGreen from "./AnimationGreen";
+import WhatWeDo from "./WhatWeDo";
+import Clients from "./Clients";
+import HowCanWeHelp from "./HowCanWeHelp";
+import Awards from "./Awards";
+import AnimationImage from "./AnimationImage";
 import HeroComponent from "./heroComponent";
 import FooterComponent from "./FooterComponent";
 import ContactForm from "./ContactForm/ContactForm";
@@ -17,15 +16,15 @@ export default function App() {
   return (
     <div>
       <HeroComponent />
-      <Index />
-      <Component2 />
-      <Component3 />
-      <Component7 />
-      <Component4 />
-      <Component5 />
-      <Component6 />
-      <ContactForm />
+      <Dhiganta/>
+      <WhatWeDo />
+      <AnimationGreen />
+      <Clients />
+      <AnimationImage />
+      <Awards />
       <Question/>
+      <HowCanWeHelp />
+      <ContactForm />
       <FooterComponent />
     </div>
   );

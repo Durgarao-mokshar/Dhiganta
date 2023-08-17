@@ -1,4 +1,4 @@
-export default function Component4() {
+export default function Clients() {
   return (
     <div className="max-w-7xl mx-auto  p-4 lg:py-32 md:py-24 py-10">
       <div>

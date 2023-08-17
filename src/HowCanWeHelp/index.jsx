@@ -1,4 +1,4 @@
-export default function Component5(){
+export default function HowCanWeHelp(){
     return <div className="bg-green-500 py-10">
         <div className="max-w-7xl mx-auto px-8 py-16">
         <div className="mb-2">
