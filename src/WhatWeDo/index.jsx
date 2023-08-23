@@ -4,7 +4,7 @@ export default function WhatWeDo(){
 			<div className=" ">
 				<div className=" text-black min-h-screen h-full flex justify-center items-center">
 					<div className="text-center max-w-7xl mx-auto w-full p-2">
-						<div className="text-center">
+						<div className="text-center mb-12">
 							<p className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold bebas">
 								<span className="">What We Do</span>
 							</p>
@@ -60,13 +60,13 @@ export default function WhatWeDo(){
 							</div>
 						</div>
 
-						<div className="my-20">
+						{/* <div className="my-20">
 							<div className="my-10 w-full flex justify-center items-center text-blue-900">
 								<a href="https://mokshar.com" target="_blank" rel="noreferrer" className="text-center block  popins">
 									<button className="px-6 py-2 bg-[#33af4e] text-white rounded-full">GET CREATIVE</button>
 								</a>
 							</div>
-						</div>
+						</div> */}
 					</div>
 				</div>
 			</div>

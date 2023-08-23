@@ -1,6 +1,6 @@
 export default function Clients() {
   return (
-    <div className="max-w-7xl mx-auto  p-4 lg:py-32 md:py-24 py-10">
+    <footer className="max-w-7xl mx-auto  p-4 lg:py-32 md:py-24 py-10">
       <div>
         <h1 className="text-black font-bold lg:text-5xl md:text-3xl text-2xl text-center lg:mb-24 md:mb-20 mb-12">
           Clients
@@ -32,6 +32,6 @@ export default function Clients() {
           />
         </div>
       </div>
-    </div>
+    </footer>
   );
 }
