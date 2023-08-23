@@ -5,7 +5,7 @@ export default function WhoAreWe() {
 
 			<div className=" grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 lg:gap-10  md:gap-6 gap-4">
 				<div className=" group max-w-sm text-center flex flex-col gap-4 items-center justify-center shadow-xl hover:bg-green-900 p-5 transform-all duration-700 ease-in rounded-md hover:text-white">
-					<img src="public\what_we_do_1.jpg" alt="ImageOne" className="rounded-full   w-64  h-64 object-cover " />
+					<img src="./what_we_do_1.jpg" alt="ImageOne" className="rounded-full   w-64  h-64 object-cover " />
 					<h3 className="lg:text-3xl md:text-2xl text-xl">Yogi</h3>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum, eveniet natus culpa fugit, explicabo voluptate repellendus
@@ -13,7 +13,7 @@ export default function WhoAreWe() {
 					</p>
 				</div>
 				<div className=" group max-w-sm text-center flex flex-col gap-4 items-center justify-center shadow-xl hover:bg-green-900 p-5 transform-all duration-700 ease-in rounded-md hover:text-white">
-					<img src="public\what_we_do_1.jpg" alt="ImageOne" className="rounded-full   w-64  h-64 object-cover " />
+					<img src="./what_we_do_1.jpg" alt="ImageOne" className="rounded-full   w-64  h-64 object-cover " />
 					<h3 className="lg:text-3xl md:text-2xl text-xl">Subaraju</h3>
 					<p>
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto cum, eveniet natus culpa fugit, explicabo voluptate repellendus
