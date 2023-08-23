@@ -12,7 +12,7 @@
 }
 
 .heroBgImage{
-    background-image: url('./Hero.jpg');
+    background-image: url('../public/Hero.jpg');
     background-size: cover;
     background-position:center;
     display: flex;
