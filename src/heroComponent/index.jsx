@@ -22,7 +22,7 @@ export default function HeroComponent() {
 			</div>
 
 			<div className="flex items-center justify-center w-full min-h-screen relative">
-				<div className="absolute  min-h-screen heroBgImage inset-0 w-full"></div>
+				<div className="absolute  min-h-screen  heroBgImage inset-0 w-full"></div>
 				<div className="">
 					<div className="flex flex-col gap-4 items-center justify-center font-playfair">
 						<div className="capitalize font-bold lg:text-5xl md:text-4xl text-2xl text-gray-900 ">
