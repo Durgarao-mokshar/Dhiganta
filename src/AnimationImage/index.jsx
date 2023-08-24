@@ -1,7 +1,7 @@
 export default function AnimationImage() {
     return (
 		<>
-			<div className="text-center font-bold  lg:text-5xl md:text-3xl text-2xl mb-11">
+			<div className="text-center font-bold  lg:text-5xl md:text-3xl text-2xl mb-11 py-10">
 				<h1>Testimonials</h1>
 			</div>
 			<div className="grid lg:grid-cols-3 grid-cols-1 bg-zinc-900 mb-20">

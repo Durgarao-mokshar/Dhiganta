@@ -1,13 +1,11 @@
 export default function WhatWeDo(){
     return (
 		<>
-			<div className=" ">
+			<div className=" py-11">
 				<div className=" text-black min-h-screen h-full flex justify-center items-center">
 					<div className="text-center max-w-7xl mx-auto w-full p-2">
 						<div className="text-center mb-12">
-							<p className="lg:text-4xl md:text-3xl sm:text-2xl text-xl font-semibold bebas">
-								<span className="">What We Do</span>
-							</p>
+							<p className="font-bold  lg:text-6xl md:text-4xl text-2xl text-center">What We Do</p>
 						</div>
 						<div className="grid lg:grid-cols-4 md:grid-cols-4 sm:grid-cols-2 gap-4 text-gray-900 popins">
 							<div className=" shadow-lg p-6 rounded-md flex gap-6 flex-col hover:bg-green-300 transform transition-all duration-300 hover:scale-95">
