@@ -22,10 +22,10 @@ export default function HeroComponent() {
 			</div>
 
 			<div className="flex items-center justify-center w-full min-h-screen relative">
-				<div className="absolute  min-h-screen  heroBgImage inset-0 w-full"></div>
+				<div className="absolute min-h-screen  heroBgImage inset-0 w-full"></div>
 				<div className="">
 					<div className="flex flex-col gap-4 items-center justify-center font-playfair">
-						<div className="capitalize font-bold lg:text-5xl md:text-4xl text-2xl text-gray-900 ">
+						<div className="capitalize font-bold lg:text-5xl md:text-4xl text-3xl text-gray-900 ">
 							<Typewriter
 								options={{
 									strings: ['Essence', 'in Motion', 'Sagas ✨'],
@@ -35,12 +35,12 @@ export default function HeroComponent() {
 								}}
 							/>
 						</div>
-						<h1 className=" text-xl  text-center mt-4 text-blue-900   font-serif max-w-3xl font-bold">
+						<h1 className=" lg:text-2xl md:text-xl text-lg text-center mt-4 text-amber-500 font-serif max-w-3xl">
 							Embark on captivating journeys with Dhiganta as they skillfully craft visual narratives. Revealing the very soul of each story
 							through the artistry of documentary filmmaking
 						</h1>
 
-						<div className=" transition-transform ease-in-out duration-500 hover:border-gray-100 hover:scale-110 text-black">
+						{/* <div className=" transition-transform ease-in-out duration-500 hover:border-gray-100 hover:scale-110 text-black">
 							<div className="group  relative cursor-pointer border border-gray-900  px-3 py-1  rounded-full transition ease-in-out duration-500 hover:border-gray-800 hover:scale-110">
 								<div className="uppercase text-xl flex items-center relative font-mono text-slate-900">
 									{'Get Started'.split('').map((letter, i) => (
@@ -65,7 +65,7 @@ export default function HeroComponent() {
 									</div>
 								</div>
 							</div>
-						</div>
+						</div> */}
 					</div>
 					{/* <section className="lg:self-center bg-black rounded-md">
 						<img src="Hero.jpg" className="rounded-md w-full" alt="Hero Section" loading="lazy" />

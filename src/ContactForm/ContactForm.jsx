@@ -3,6 +3,7 @@ import { useState, useRef } from "react";
 function ContactForm() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   const [message, setMessage] = useState("");
   const [service, setService] = useState([]);
   const [success, setSuccess] = useState(false);
@@ -53,6 +54,31 @@ function ContactForm() {
 
   return (
     <div className={`bg-white`}>
+      <div className="bg-green-900 py-10">
+        <div className="max-w-7xl mx-auto px-8 py-16">
+          <div className="mb-2">
+            <h1 className="uppercase font-bold lg:text-4xl md:text-3xl text-2xl text-center text-white">
+              how can we help?
+            </h1>
+          </div>
+          <div>
+            <p className="capitalize font-thin lg:text-4xl md:text-3xl text-2xl text-center text-white mb-6">
+              need more information or want to get in touch?
+            </p>
+          </div>
+          <div className="flex justify-center items-center">
+            <img
+              src="https://themezinho.net/parada/images/shape-gray-wave.png"
+              className="mb-6"
+            />
+          </div>
+          <div className="flex justify-center items-center">
+            <button onClick={()=>handleClick()} className="uppercase bg-white  lg:px-6 lg:py-3 px-4 py-2 rounded-full text-green-900 lg:font-bold hover:transform  hover:-translate-y-1 hover:shadow-md scale-110 duration-300 ease-in-out">
+              get in touch
+            </button>
+          </div>
+        </div>
+      </div>
       <div className="max-w-7xl mx-auto"></div>
       <div className="border-b border-[#333333]"></div>
       <div className=" py-24 p-4" ref={scrollRef}>
@@ -100,10 +126,7 @@ function ContactForm() {
                   />
                 </div>
                 <div className="relative z-0 w-full m-1">
-				<label
-                    htmlFor="floating_standard"
-                    className="p-1"
-                  >
+                  <label htmlFor="floating_standard" className="p-1">
                     Your Email
                   </label>
                   <input
@@ -116,15 +139,28 @@ function ContactForm() {
                     value={email}
                     onChange={(e) => setEmail(e.target.value)}
                   />
-                  
                 </div>
               </div>
               <div className="w-full h-full p-4 pt-2">
                 <div className="relative z-0 w-full m-1">
-
-					<label className="p-1">
-						Tell us about your project
-					</label>
+                  <label htmlFor="floating_standard" className=" p-1">
+                    Mobile Number
+                  </label>
+                  <input
+                    autoComplete="off"
+                    required
+                    type="text"
+                    id="floating_standard"
+                    className="w-full bg-gray-100 outline-none  p-3"
+                    placeholder=" "
+                    value={phone}
+                    onChange={(e) => setPhone(e.target.value)}
+                  />
+                </div>
+              </div>
+              <div className="w-full h-full p-4 pt-2">
+                <div className="relative z-0 w-full m-1">
+                  <label className="p-1">Tell us about your project</label>
                   <textarea
                     autoComplete="off"
                     required
@@ -139,13 +175,12 @@ function ContactForm() {
                       }
                     }}
                   />
-                  
                 </div>
                 <div className="flex justify-end text-gray-900">
                   <p className="text-sm py-1">{message.length}/1000</p>
                 </div>
               </div>
-              <div>
+              {/* <div>
                 <div className="p-4">
                   <p className="text-3xl text-gray-900">Im interested in...</p>
                 </div>
@@ -178,7 +213,7 @@ function ContactForm() {
                     </div>
                   ))}
                 </div>
-              </div>
+              </div> */}
 
               <div className="flex items-center justify-start p-4">
                 <input
