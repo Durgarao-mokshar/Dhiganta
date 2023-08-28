@@ -215,7 +215,7 @@ function ContactForm() {
                 </div>
               </div> */}
 
-              <div className="flex items-center justify-start p-4">
+              {/* <div className="flex items-center justify-start p-4">
                 <input
                   required
                   type="checkbox"
@@ -225,7 +225,7 @@ function ContactForm() {
                   I agree with your{" "}
                   <span className="text-[#F2751A]">privacy policy</span>
                 </p>
-              </div>
+              </div> */}
               <div className="p-4">
                 <div>
                   <button
